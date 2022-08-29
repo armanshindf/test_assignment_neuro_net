@@ -9,7 +9,7 @@ def get_recepients():
         recepients = json.load(f)
     return recepients
 
-def get_operator:
+def get_operator():
     with open("./operator.json", 'r') as f:
         operator = json.load(f)
     return operator['number']
