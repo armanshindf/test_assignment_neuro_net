@@ -31,6 +31,8 @@ def entity_list():
                    'recommendation', 'question']
     return entity_list
 
+#hello logic unit
+
 def hello(*args):
     
     nn.call(*args)
@@ -54,8 +56,6 @@ def hello_repeat():
     nn.log('logic', 'hello_repeat')
     nv.say(prompt_txt['hello']['hello_repeat'])
     recommend_main()
-
-#hello logic unit
 
 def hello_logic(r):
 
